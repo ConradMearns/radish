@@ -4,8 +4,17 @@
 
 
 <main>
-	<h1>	Radish Timer	</h1>
+	<h1>Radish Timer</h1>
+	
 	<Timer />
+	<br>
+	
+	Log
+	<br>
+
+	State Saving
+	<br>
+
 </main>
 
 
