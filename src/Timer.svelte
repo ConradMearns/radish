@@ -73,17 +73,14 @@ function handleNotificationAccess() {
 }
 
 function randomNotification() {
-    // var randomItem = Math.floor(Math.random()*games.length);
-    var notifTitle = 'you smelly dog';
-    var notifBody = 'you absolute piece of highway litter';
-    // var notifBody = 'Created by '+games[randomItem].author+'.';
-    // var notifImg = 'data/img/'+games[randomItem].slug+'.jpg';
+    var notifTitle = 'Thanks';
+    var notifBody = 'This is what the notifcation will look like';
+	var notifImg = 'radish.svg';
     var options = {
         body: notifBody,
-        // icon: notifImg
+        icon: notifImg
     }
     var notif = new Notification(notifTitle, options);
-	// setTimeout(randomNotification, 30000);
 	
 	var snd = new Audio('/blip.mp3');
 	snd.play();
@@ -91,11 +88,11 @@ function randomNotification() {
 
 function sendNotification() {
     var notifTitle = 'time block for ' + task + ' complete';
-    var notifBody = 'LINE\nLINE\nLINE';
+    // var notifBody = 'LINE\nLINE\nLINE';
     // var notifBody = 'time block for ' + task + ' complete';
     var notifImg = 'radish.svg';
     var options = {
-        body: notifBody,
+        // body: notifBody,
         icon: notifImg
     }
     var notif = new Notification(notifTitle, options);
