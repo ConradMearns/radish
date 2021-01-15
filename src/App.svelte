@@ -2,7 +2,6 @@
 	import Timer from './Timer.svelte';
 </script>
 
-
 <main>
 	<h1>Radish Timer</h1>
 	
