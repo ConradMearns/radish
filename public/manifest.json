@@ -1,6 +1,6 @@
 {
-    "name": "SVELTE-PWA",
-    "short_name": "SVELTE-PWA",
+    "name": "Radish Timer",
+    "short_name": "Radish Timer",
     "icons": [
       {
         "src": "/radish.svg",
